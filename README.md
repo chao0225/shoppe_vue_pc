@@ -1,38 +1,24 @@
-# Store（参考小米商城）
-
-## 前言
-
-2020年寒假尤其特殊，因为新型冠状病毒肺炎疫情，学校至今没有开学。想起上学期利用课余时间学习了`Vue.js`、`Node.js`，一直想做个完整的项目实战一下，但之前在学校并没有那么多的时间。现在恰好有时间，就想着做一个项目巩固之前学到的东西。
-
-思来想去，最后决定模仿 [小米商城 ](www.mi.com)做一个电商项目。可能时间隔得有点久了，之前学的东西很多都差不多忘记了，做这个项目基本上都是看着官方的文档一点一点做的。在家里也免不了有各种各样的事情耽误了项目的进度。现在终于差不多做好了，分享出来，新手上路，如有错误，请多多指教。
+# shoppe(PC版)
 
 ## 说明
 
-> 本项目前后端分离，前端参考 [小米商城](www.mi.com) 实现，但与小米官方没有关系，纯属个人瞎搞，若需要购买小米产品请到小米官方商城。
+> 微信小程序版：[shoppe]( https://github.com/chao0225/shoppe_wx )。
 
-> 这是本项目的前端，后端请移步到[store-server](https://github.com/hai-27/store-server) 。
+> 后端： [shoppe-server](https://github.com/chao0225/shoppe-server) 。
 
 > 前端已经部署在阿里云，欢迎访问 [http://106.15.179.105/](http://106.15.179.105/) （没有兼容移动端，请使用电脑访问）。
 
 > 后端也已经部署在阿里云，接口地址已经修改为线上地址，本地运行前端也可以正常访问后端。
 
-> 本人在读本科大三，今年暑假即将开始实习，后面的时间可能没有那么的自由，但会不定期的更新完善该项目，如有问题请直接在 Issues 中提。
-
-> 如果觉得这个项目还不错，您可以点右上角 `Star`支持一下， 谢谢！ ^_^
-
-
-**更新说明:** 项目源代码仓库在Github，此处会同步特定版本，想了解最新版本请移步[https://github.com/hai-27/vue-store](https://github.com/hai-27/vue-store)
-
-
 ## 项目简介
 
-本项目前后端分离，前端基于`Vue`+`Vue-router`+`Vuex`+`Element-ui`+`Axios`，参考小米商城实现。后端基于`Node.js(Koa框架)`+`Mysql`实现。
+此网站是一个商城，前端基于Vue+Vue-router+Vuex+Element-ui+Axios，后端部分及数据库设计由自己完成，后期由后端人员接手负责。
 
 前端包含了11个页面：首页、登录、注册、全部商品、商品详情页、关于我们、我的收藏、购物车、订单结算页面、我的订单以及错误处理页面。
 
 实现了商品的展示、商品分类查询、关键字搜索商品、商品详细信息展示、登录、注册、用户购物车、订单结算、用户订单、用户收藏列表以及错误处理功能。
 
-后端采取了MVC模式，根据前端需要的数据分模块设计了相应的接口、控制层、数据持久层。后端传送地址[store-server](https://github.com/hai-27/store-server) 。
+后端采取了MVC模式，根据前端需要的数据分模块设计了相应的接口、控制层、数据持久层。后端传送地址[shoppe-server](https://github.com/chao0225/shoppe-server) 。
 
 ## 技术栈
 
@@ -95,12 +81,12 @@
 
 - 后端接口地址已经修改为线上的地址，本地运行会直接分为我部署在服务器的后端。
 - 为了方便测试，数据库数据没有加密，注册时切记**不要使用自己的常用密码**。
-- 如果需要自己运行后端，请移步到[store-server](https://github.com/hai-27/store-server) clone后端项目，并修改前端的接口地址为您的服务器地址。
+- 如果需要自己运行后端，请移步到[shoppe-server](https://github.com/chao0225/shoppe-server) clone后端项目，并修改前端的接口地址为您的服务器地址。
 
 ```
 1. Clone project
 
-git clone https://github.com/hai-27/vue-store.git
+git clone https://github.com/chao0225/shoppe_vue_pc.git
 
 2. Project setup
 
@@ -144,9 +130,3 @@ npm run build
 **注册**
 
 ![](https://images.gitee.com/uploads/images/2020/0317/154827_2399157d_6502229.png "register.png")
-
-
-
-**作者** [hai-27](https://github.com/hai-27)
-
-2020年3月8日
