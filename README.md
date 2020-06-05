@@ -4,7 +4,7 @@
 
 > 微信小程序版：[shoppe]( https://github.com/chao0225/shoppe_wx )。
 
-> 后端： [shoppe-server](https://github.com/chao0225/shoppe-server) 。
+> 后端： [shoppe-server](https://github.com/chao0225/shoppe_server) 。
 
 > 前端已经部署在阿里云，欢迎访问 [http://106.15.179.105/](http://106.15.179.105/) （没有兼容移动端，请使用电脑访问）。
 
@@ -18,7 +18,7 @@
 
 实现了商品的展示、商品分类查询、关键字搜索商品、商品详细信息展示、登录、注册、用户购物车、订单结算、用户订单、用户收藏列表以及错误处理功能。
 
-后端采取了MVC模式，根据前端需要的数据分模块设计了相应的接口、控制层、数据持久层。后端传送地址[shoppe-server](https://github.com/chao0225/shoppe-server) 。
+后端采取了MVC模式，根据前端需要的数据分模块设计了相应的接口、控制层、数据持久层。后端传送地址[shoppe-server](https://github.com/chao0225/shoppe_server) 。
 
 ## 技术栈
 
